@@ -17,6 +17,13 @@ li   { font-size: 1.4em; } /* =14px? */
     background-size: cover;
     filter: brightness(15%);
 }
+.decervoWeb{
+      position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+    width: 100%;
+}
 nav ul a {
     color: inherit;
     text-decoration: none;
@@ -47,17 +54,18 @@ nav ul a:hover {
 }
 .projectItem{
     height: 100%;
+    width: 100%;
         background: black;
         overflow: hidden ;
 }
-.projectItem:hover{
+/*.projectItem:hover{
     transform: scaleY(1.03);
   -webkit-transition: .55s;
   -moz-transition: .55s;
   -o-transition: .55s;
   -ms-transition: .55s;
   overflow: hidden !important;
-}
+}*/
 .moreBtn{
 
     position: absolute;
@@ -92,6 +100,19 @@ nav ul a:hover {
     font-size: 10rem;
     color: white;
     margin: 0 auto;
+}
+.websiteTitle{
+    top:30%;
+}
+.websiteBtn{
+    top:45%;
+    color: white;
+}
+.nexusTitle{
+    top:140%;
+}
+.nexusBtn{
+    top:155%;
 }
 .title{
         /*background-color: rgba(0,0,0,.5);*/
