@@ -1,4 +1,109 @@
-#homepage .container{
-    background-image: url('./css/eclipse.jpg');
+body { font-size:62.5%; }  /* =10px */
+h1   { font-size: 2.4em; } /* =24px */
+p    { font-size: 1.4em; } /* =14px */
+li   { font-size: 1.4em; } /* =14px? */
+nav ul a {
+    color: inherit;
+    text-decoration: none;
+}
+nav ul a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+.homeSector{
+    height: 100%;
+    float: right !important;
+    background-image: url('../img/eclipse.jpg');
+        background-position: 50%;
+    /*background-size: 80%;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutSector{
+    height: 100%;
+    background-color: white;
+    float: right !important;
+}
+.title{
+        /*background-color: rgba(0,0,0,.5);*/
+
+    font-size: 80px;
+    color: lightgray;
+    text-align: center;
+    margin-top: 50%;
+    /*height: 100%;*/
+}
+.titleName{
+      font-size: 50px;
+    color:white;
+    text-align: center;
+}
+.homepage{
+    height: 100%;
+    width: 100%;
+
+    /*background-size: cover;*/
+        float: left;
     /*background-color: gray;*/
+}
+.about{
+     height: 100%;
+    width: 100%;
+    
+    /*background-size: cover;*/
+        float: left;
+    /*background-color: gray;*/
+}
+.navigation {
+    /*z-index: 99;*/
+    position: fixed !important;
+        padding-top: 20%;
+    text-align: center;
+    /*margin-left: 15%;*/
+    height: 100%;
+    background-color:black;
+}
+@media screen and (min-width: 75em) {
+    .navigation {
+        display: block
+    }
+}
+.navigation_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation_item {
+    cursor: pointer;
+    float: left;
+    height: 5%;
+    width: 100%;
+    position: relative;
+    /*font-family: "Quantico-Bold", sans-serif;*/
+    font-size: 10px;
+    color: rgba(255, 255, 255, .6);
+    /*list-style: none;*/
+}
+.navigation_item-toggle {
+    float: left;
+    height: 15%;
+    width: 100%;
+    position: relative;
+    /*font-family: "Quantico-Bold", sans-serif;*/
+    font-size: 50px;
+    color: white !important;
+    /*list-style: none;*/
+}
+.navigation_item:hover {
+  -webkit-transition: font-size 1s, color 2s; /* Safari */
+    transition: font-size 1s, color 2s;
+    float: left;
+    height: 15%;
+    width: 100%;
+    position: relative;
+    /*font-family: "Quantico-Bold", sans-serif;*/
+    font-size: 30px;
+    color: white !important;
+    /*list-style: none;*/
 }
