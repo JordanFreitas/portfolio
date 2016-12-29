@@ -2,6 +2,21 @@ body { font-size:62.5%; }  /* =10px */
 h1   { font-size: 2.4em; } /* =24px */
 p    { font-size: 1.4em; } /* =14px */
 li   { font-size: 1.4em; } /* =14px? */
+
+
+/* vertical gradient with brighter in middle*/
+#nexus{
+    background-image: url('../img/nexus.svg');
+           background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .5);
+}
+.nexus{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(15%);
+}
 nav ul a {
     color: inherit;
     text-decoration: none;
@@ -23,6 +38,60 @@ nav ul a:hover {
     height: 100%;
     background-color: white;
     float: right !important;
+}
+.projectSector {
+    height: 100%;
+    background-color: white;
+    float: right !important;
+    padding: 0px !important;
+}
+.projectItem{
+    height: 100%;
+        background: black;
+        overflow: hidden ;
+}
+.projectItem:hover{
+    transform: scaleY(1.03);
+  -webkit-transition: .55s;
+  -moz-transition: .55s;
+  -o-transition: .55s;
+  -ms-transition: .55s;
+  overflow: hidden !important;
+}
+.moreBtn{
+
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    font-size: 2rem;
+    color: gray;
+    margin: 0 auto;
+    border: 1px solid;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    right: 47%;
+}
+.moreBtn:hover{
+      -webkit-transition: .55s;
+  -moz-transition: .55s;
+  -o-transition: .55s;
+  -ms-transition: .55s;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+.projectTitle{
+    
+        position: absolute;
+    width: 100%;
+    /*right: 50%;*/
+    text-align: center;
+    top: 40%;
+    font-size: 10rem;
+    color: white;
+    margin: 0 auto;
 }
 .title{
         /*background-color: rgba(0,0,0,.5);*/
