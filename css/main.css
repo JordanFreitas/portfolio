@@ -24,6 +24,45 @@ li   { font-size: 1.4em; } /* =14px? */
     filter: brightness(50%);
     width: 100%;
 }
+.stockUp{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(90%);
+    width: 100%;
+}
+.loop{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(90%);
+    width: 100%;
+}
+.info{
+     position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(30%);
+    width: 100%;
+    height: inherit;
+}
+.chow{
+     position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(90%);
+    width: 100%;
+    height: inherit;
+}
+.musaic{
+         position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+    width: 100%;
+    height: inherit;
+}
+
 nav ul a {
     color: inherit;
     text-decoration: none;
@@ -41,10 +80,27 @@ nav ul a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+/*about section*/
+
+.interestIcon{
+    width: 25%;
+    height: auto;
+
+}
 .aboutSector{
-    height: 100%;
-    background-color: white;
+    /*height: 100%;*/
+    color: white;
+    background-color: black;
     float: right !important;
+}
+/*.spaceNeedle{
+    fill: white;
+}*/
+.interests{
+    color: white;
+    background: black;
 }
 .projectSector {
     height: 100%;
@@ -97,7 +153,7 @@ nav ul a:hover {
     /*right: 50%;*/
     text-align: center;
     top: 40%;
-    font-size: 10rem;
+    font-size: 12rem;
     color: white;
     margin: 0 auto;
 }
@@ -113,6 +169,60 @@ nav ul a:hover {
 }
 .nexusBtn{
     top:155%;
+}
+.stockTitle{
+    color: rgb(50, 50,50);
+    top:240%;
+}
+.stockBtn{
+        color: rgb(50, 50,50);
+    top:255%;
+}
+.loopTitle{
+    top:340%;
+}
+.loopBtn{
+    top:355%;
+}
+.infoTitle{
+    top:440%;
+}
+.infoBtn{
+    top:455%;
+    color: white;
+}
+.chowTitle{
+    top:540%;
+}
+/*.chowBtn{
+    top:570%;
+    color: #8BC34A;
+}*/
+.musaicTitle{
+    color: white;
+    top: 640%;
+}
+.musaicBtn{
+    color: white;
+    top:655%;
+}
+.musaicBtn:hover{
+     -webkit-transition: .55s;
+  -moz-transition: .55s;
+  -o-transition: .55s;
+  -ms-transition: .55s;
+  color: black;
+  background-color:skyblue;
+  text-decoration: none;
+}
+.stockBtn:hover{
+     -webkit-transition: .55s;
+  -moz-transition: .55s;
+  -o-transition: .55s;
+  -ms-transition: .55s;
+  color: white;
+  background-color:rgb(50, 50,50);
+  text-decoration: none;
 }
 .title{
         /*background-color: rgba(0,0,0,.5);*/
