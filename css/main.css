@@ -85,7 +85,7 @@ nav ul a:hover {
 /*about section*/
 
 .interestIcon{
-    width: 25%;
+    width: 50%;
     height: auto;
 
 }
@@ -95,12 +95,34 @@ nav ul a:hover {
     background-color: black;
     float: right !important;
 }
-/*.spaceNeedle{
-    fill: white;
-}*/
+.aboutTitle{
+        font-size: 20px;
+    text-align: center;
+
+}
+.mission{
+    height:100%;
+}
+.aboutIntro{
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+}
+
+.spaceNeedle{
+height: 100%;
+}
+.textNeedle{
+    top: 45%;
+}
 .interests{
     color: white;
     background: black;
+    text-align: center;
+    /*padding: 80px;*/
+    padding-top: 50px;
+    padding-bottom: 120px;
 }
 .projectSector {
     height: 100%;
