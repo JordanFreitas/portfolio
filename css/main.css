@@ -80,7 +80,33 @@ nav ul a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.decervoHomeSector{
+    height:100%;
+     float: right !important;
+    background-image: url('../img/decervo.svg');
+        background-position: 50%;
+    /*background-size: 80%;*/
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    
+}
+/*.decervoHomeSector:hover{
+    transform: scale(1.1536);
+      -webkit-transition: .55s;
+  -moz-transition: .55s;
+  -o-transition: .55s;
+  -ms-transition: .55s;
+}*/
+.decervoAboutSector {
+    /* height: 100%; */
+    /*color: white;*/
+    /*background-color: black;*/
+    float: right !important;
+    text-align: center;
+}
+.decervoText{
+    text-align: left;
+}
 
 /*about section*/
 
@@ -109,7 +135,10 @@ nav ul a:hover {
     padding-bottom: 20%;
 
 }
-
+.decervoImg{
+    max-width: 100%;
+    height: auto;
+}
 .spaceNeedle{
 height: 100%;
 }
