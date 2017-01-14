@@ -90,6 +90,16 @@ nav ul a:hover {
     /*background-size: cover;*/
     
 }
+.stockHomeSector{
+    height:100%;
+     float: right !important;
+    background-image: url('../img/stockUp.png');
+        background-position: 50%;
+    /*background-size: 80%;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 /*.decervoHomeSector:hover{
     transform: scale(1.1536);
       -webkit-transition: .55s;
