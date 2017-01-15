@@ -122,6 +122,13 @@ nav ul a:hover {
 .imgText{
     position: relative;
 }
+.loopTitle{
+    font-weight: bold;
+    font-size: 50px;
+    padding: 5%;
+     /*text-decoration: underline;*/
+    /*text-shadow: 1px 1px;*/
+}
 .textOver{
     top:0px;
     position: absolute;
@@ -129,7 +136,7 @@ nav ul a:hover {
     height: 100%;
     width: 100%;
     padding: 5%;
-    padding-top: 20%;
+    /*padding-top: 20%;*/
     font-size: 35px;
 }
 .loopIntro{
@@ -146,6 +153,18 @@ nav ul a:hover {
   transition: all 0.4s ease;
     visibility: visible;
      background-color:rgba(0, 0, 0, .85);
+   
+}
+.imgTextStock{
+    position: relative;
+}
+.imgTextStock:hover .textOver{
+     -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+    visibility: visible;
+     background-color:rgba(255, 255, 255, .85);
    
 }
 
