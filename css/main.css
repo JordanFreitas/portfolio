@@ -113,6 +113,42 @@ nav ul a:hover {
     height: 40%;
     width: auto !important;
 }
+.loopAboutSector{
+    background-color: black;
+    color: white;
+    float: right !important;
+    text-align: center;
+}
+.imgText{
+    position: relative;
+}
+.textOver{
+    top:0px;
+    position: absolute;
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    padding-top: 20%;
+    font-size: 35px;
+}
+.loopIntro{
+    padding-top:10%;
+    padding-bottom: 20%;
+}
+.blank{
+    padding: 30px;
+}
+.imgText:hover .textOver{
+     -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+    visibility: visible;
+     background-color:rgba(0, 0, 0, .85);
+   
+}
+
 /*.decervoHomeSector:hover{
     transform: scale(1.1536);
       -webkit-transition: .55s;
