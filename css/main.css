@@ -109,6 +109,21 @@ nav ul a:hover {
     background-repeat: no-repeat;
     /*background-size: cover;  */
 }
+.chowHomeSector{
+           height:100%;
+     float: right !important;
+    background-image: url('../img/chowbox.svg');
+    background-color: black;
+        background-position: 50%;
+    /*background-size: 80%;*/
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.chowTitle{
+    padding-top: 20%;
+    padding-bottom: 5%;
+    font-size: 50px;
+}
 .stockImg{
     height: 40%;
     width: auto !important;
@@ -116,6 +131,14 @@ nav ul a:hover {
 .loopAboutSector{
     background-color: black;
     color: white;
+    float: right !important;
+    text-align: center;
+}
+.chowAboutSector{
+        /* height: 100%; */
+     color:white; 
+     background-color: #00517C;
+    /* background-color: black; */
     float: right !important;
     text-align: center;
 }
@@ -137,8 +160,10 @@ nav ul a:hover {
     width: 100%;
     padding: 5%;
     /*padding-top: 20%;*/
-    font-size: 35px;
+    font-size: 30px;
+    text-align: left;
 }
+
 .loopIntro{
     padding-top:10%;
     padding-bottom: 20%;
@@ -158,16 +183,27 @@ nav ul a:hover {
 .imgTextStock{
     position: relative;
 }
+.chow{
+    color: rgb(0, 0, 0);
+}
 .imgTextStock:hover .textOver{
      -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
     visibility: visible;
-     background-color:rgba(255, 255, 255, .85);
+     background-color:rgba(255, 255, 255, .95);
    
 }
-
+.imgTextStockChow:hover .textOver{
+     -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+    visibility: visible;
+     background-color:rgba(0,81,124, .95);
+   
+}
 /*.decervoHomeSector:hover{
     transform: scale(1.1536);
       -webkit-transition: .55s;
