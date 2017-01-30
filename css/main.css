@@ -71,6 +71,18 @@ nav ul a:hover {
     color: inherit;
     text-decoration: none;
 }
+.contactSector{
+   
+    /* height: 100%; */
+    /*color: white;*/
+    /*background-color: black;*/
+    float: right !important;
+    text-align: center;
+
+}
+.iconInt{
+    color: white;
+}
 .homeSector{
     height: 100%;
     float: right !important;
@@ -79,6 +91,16 @@ nav ul a:hover {
     /*background-size: 80%;*/
     background-repeat: no-repeat;
     background-size: cover;
+}
+.contactSector{
+    height: 100%;
+    float: right !important;
+    /*background-image: url('../img/eclipse.jpg');
+        background-position: 50%;
+    /*background-size: 80%;*/
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: black;
 }
 .decervoHomeSector{
     height:100%;
@@ -142,6 +164,11 @@ nav ul a:hover {
     float: right !important;
     text-align: center;
 }
+@media(max-width:700px){
+    .navigation{
+        display: none;
+    }
+}
 .imgText{
     position: relative;
 }
@@ -163,7 +190,17 @@ nav ul a:hover {
     font-size: 30px;
     text-align: left;
 }
-
+.textOverI{
+    /*top:0px;*/
+    position: absolute;
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    /*padding-top: 20%;*/
+    font-size: 25px;
+    text-align: center;
+}
 .loopIntro{
     padding-top:10%;
     padding-bottom: 20%;
@@ -172,6 +209,15 @@ nav ul a:hover {
     padding: 30px;
 }
 .imgText:hover .textOver{
+     -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+    visibility: visible;
+     background-color:rgba(0, 0, 0, .85);
+   
+}
+.imgText:hover .textOverI{
      -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
@@ -218,6 +264,7 @@ nav ul a:hover {
     float: right !important;
     text-align: center;
 }
+
 .decervoText{
     text-align: left;
 }
@@ -446,33 +493,53 @@ color: rgb(50, 50,50);
 .navigation_item {
     cursor: pointer;
     float: left;
-    height: 5%;
+    /*height: 5%;*/
     width: 100%;
     position: relative;
+    /*padding-bottom: 5%;*/
     /*font-family: "Quantico-Bold", sans-serif;*/
     font-size: 10px;
     color: rgba(255, 255, 255, .6);
     /*list-style: none;*/
 }
-.navigation_item-toggle {
-    float: left;
-    height: 15%;
+
+.navigation_item:hover{
+  
     width: 100%;
     position: relative;
     /*font-family: "Quantico-Bold", sans-serif;*/
     font-size: 50px;
     color: white !important;
-    /*list-style: none;*/
+        background-color: transparent !important;
+    /*list-style: none;*/  
 }
-.navigation_item:hover {
-  -webkit-transition: font-size 1s, color 2s; /* Safari */
+.aB:hover{
+        -moz-transition: .55s;
+  -o-transition: .55s;
+  -ms-transition: .55s;
+      -webkit-transition: font-size 1s, color 2s; /* Safari */
     transition: font-size 1s, color 2s;
-    float: left;
-    height: 15%;
     width: 100%;
     position: relative;
     /*font-family: "Quantico-Bold", sans-serif;*/
-    font-size: 30px;
+    font-size: 50px;
     color: white !important;
+        background-color: transparent !important;
+    /*list-style: none;*/  
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+     -moz-transition: .55s;
+  -o-transition: .55s;
+  -ms-transition: .55s;
+      -webkit-transition: font-size 1s, color 2s; /* Safari */
+    transition: font-size 1s, color 2s;
+    float: left;
+    /*height: 15%;*/
+    width: 100%;
+    position: relative;
+    /*font-family: "Quantico-Bold", sans-serif;*/
+    font-size: 50px;
+    color: white !important;
+        background-color: transparent !important;
     /*list-style: none;*/
 }

@@ -16,31 +16,32 @@
          <!-- Latest compiled and minified JavaScript -->
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       </head>
-      <body>
-         <section id="homepage"class="homepage" >
-            <nav class="navigation col-md-4">
+      <body data-spy="scroll" data-target="#myScrollspy" data-offset="50">
+         <section id="homepage"class=" navbar homepage" >
+            <nav class="navigation col-md-4" id="myScrollspy">
                <div class="homeNav">
-                  <ul class = "navigation_list">
-                     <li class="navigation_item-toggle">
-                        <a href="#homepage">HOME</a>
+                  <ul class = "navigation_list nav nav-pills nav-stacked">
+                     <li class="navigation_item">
+                        <a class = "aB" href="#homepage">HOME</a>
                      </li>
                      <li class="navigation_item">
-                        <a href="#about">ABOUT</a>
+                        <a class = "aB" href="#about">ABOUT</a>
+                     </li>
+                       <li class="navigation_item">
+                        <a class = "aB" href="#contact">CONTACT</a>
                      </li>
                      <li class="navigation_item">
-                        <a href="#projects">PROJECTS</a>		
+                        <a class = "aB" href="#projects">PROJECTS</a>		
                      </li>
-                     <li class="navigation_item" href="#">
-                        CONTACT
-                     </li>
+                   
                   </ul>
                </div>
             </nav>
-            <div class="col-md-8 homeSector">
+            <div id = "home" class="col-md-8 homeSector">
                <h1 class = "title">UX Design & Developer</h1>
                <h1 class = "titleName">Jordan Freitas</h1>
             </div>
-            <div class="col-md-8 aboutSector">
+            <div id = "about" class="col-md-8 aboutSector">
                 <div class="container">
                     <h1 class = "aboutIntro">People. Innovation. Code.</h1>
                <!--<h1 >I am Jordan Freitas, currently a Junior at the University of Washington 
@@ -52,40 +53,61 @@
                <!--<h1> I currently work at deCervo, a groundbreaking company working toward measuring and improving performance-relevant cognition.</h1>
                <img src="../img/decervo.svg" alt="decervo" class="decervoLogo">-->
                 <!--<h1 class = "aboutTitle" >Technology</h1>-->
-               <div class="col-md-4 interests">
+               <div class="col-md-4 interests imgText">
+                   <p class = "textOverI iconInt">User Experience Design and Development
+                    </p>
                    <img src="../img/ux.svg" alt="UX Design" class="interestIcon">
                </div>
-               <div class="col-md-4 interests">
+               <div class="col-md-4 interests imgText">
+                   <p class = "textOverI iconInt">Web Design and Development
+                    </p>
                    <img src="../img/web.svg" alt="Web Applications" class="interestIcon">
                    
                    </div>
-               <div class="col-md-4 interests">
+               <div class="col-md-4 interests imgText">
+                   <p class = "textOverI iconInt">Mobile App Design and Development
+                    </p>
                    <img src="../img/phone.svg" alt="Web Applications" class="interestIcon">
                    
                    </div>
                 <h1 class = "aboutTitle">Research</h1>
-               <div class="col-md-3 interests">
+               <div class="col-md-3 interests imgText">
+                   <p class = "textOverI iconInt">Mixed Reality Applications/Mesh Processing
+                    </p>
                    <img src="../img/mesh.svg" alt="Mesh Processing" class="interestIcon">                   
                    </div>
-               <div class="col-md-3 interests">
+               <div class="col-md-3 interests imgText">
+                   <p class = "textOverI iconInt">EEG and VR relations to Cognitive Augmentation
+                    </p>
                    <img src="../img/brain.svg" alt="EEG" class="interestIcon">                   
 </div>
-               <div class="col-md-3 interests">
+               <div class="col-md-3 interests imgText">
+                   <p class = "textOverI iconInt">Associative Thinking abridged from Linear Thinking
+                    </p>
                     <img src="../img/lightBulb.svg" alt="EEG" class="interestIcon">                   
 </div>
-<div class="col-md-3 interests">
+<div class="col-md-3 interests imgText">
+     <p class = "textOverI iconInt">Nootropic Applications
+                    </p>
                     <img src="../img/nootropic.svg" alt="EEG" class="interestIcon">                   
 </div>
-                <h1 class = "aboutTitle"> Personal </h1>
+<!--<div class="section">   </div>-->
+                <!--<h1 class = "aboutTitle"> Personal </h1>
                 <div class="col-md-2 interests">
                    <img src="../img/mesh.svg" alt="Mesh Processing" class="interestIcon">                   
                    </div>
                <div class="col-md-4 interests"></div>
                <div class="col-md-4 interests"></div>
-               <div class="col-md-4 interests"></div>
+               <div class="col-md-4 interests"></div>-->
 
 
            </div>
+            </div>
+             <div id = "contact" class="col-md-8 contactSector">
+               <h1 >Contact</h1>
+                <img src="../img/GitHub.svg" alt="decervoWebsite" class="">
+                <img src="../img/linkedin.png" alt="decervoWebsite" class="">
+
             </div>
 			<div id = "projects" class="col-md-8 projectSector">
 				<div class="projectItem">
@@ -124,33 +146,24 @@
 					<h1 class = "projectTitle musaicTitle">Musaic</h1>
 					<a class = "moreBtn musaicBtn" href="#">MORE</a>
 				</div>
+                <div class="projectItem">
+					<!--<img src="../img/musaic.PNG" alt="musaic" class="musaic">-->
+					<h1 class = "projectTitle musaicTitle">Musaic</h1>
+                    
+					<!--<a class = "moreBtn musaicBtn" href="#">MORE</a>-->
+				</div>
 			</div>
-			<div class="col-md-8 contactSector">
+			<!--<div class="col-md-8 aboutSector">
+                <h1>Feel free to conact me regarding shared interests with my studies of research. Always reading and willing to collaborate with new, innovative ideas.</h1>
 
-			</div>
+
+
+			</div>-->
+           
          </section>
-         <section id="about" class = "about">
-            <!--<nav class="navigation col-md-4 aboutNav">
-               <ul class = "navigation_list ">
-               	<li class="navigation_item">
-               		<a href="#homepage">HOME</a>
-               	</li>
-               	<li class="navigation_item-toggle">
-               		<a href="#about">ABOUT</a>
-               	</li>
-               	<li class="navigation_item" href="#">
-               		PROJECTS		
-               	</li>
-               	<li class="navigation_item" href="#">
-               		CONTACT
-               	</li>
-               </ul>
-               
-               </nav>-->
-         </section>
-         <!--<script src="./assets/js/vendor.min.js?v=1.8"></script>
-            <script src="./assets/js/plugins.min.js?v=1.8"></script>
-            <script src="./assets/js/scripts.min.js?v=1.8"></script>-->
+     
+           <script src="js/smoothscroll.js"></script>
+
          <script type="text/javascript">
             "use strict";
             
@@ -160,6 +173,10 @@
             
             
             });
+            $(function () {
+            $('.ui-tooltip').tooltip();
+        })
          </script>
       </body>
    </html>
+
