@@ -23,6 +23,7 @@ li   { font-size: 1.4em; } /* =14px? */
     background-size: cover;
     filter: brightness(50%);
     width: 100%;
+    height: 100%;
 }
 .stockUp{
     position: absolute;
@@ -30,13 +31,15 @@ li   { font-size: 1.4em; } /* =14px? */
     background-size: cover;
     filter: brightness(90%);
     width: 100%;
+    height: 100%;
 }
 .loop{
     position: absolute;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 80%;
     filter: brightness(90%);
     width: 100%;
+    height: 100%;
 }
 .info{
      position: absolute;
@@ -44,7 +47,7 @@ li   { font-size: 1.4em; } /* =14px? */
     background-size: cover;
     filter: brightness(30%);
     width: 100%;
-    height: inherit;
+    height: 100%;
 }
 .chow{
      position: absolute;
@@ -52,7 +55,7 @@ li   { font-size: 1.4em; } /* =14px? */
     background-size: cover;
     filter: brightness(90%);
     width: 100%;
-    height: inherit;
+    height: 100%;
 }
 .musaic{
          position: absolute;
@@ -60,7 +63,7 @@ li   { font-size: 1.4em; } /* =14px? */
     background-size: cover;
     filter: brightness(50%);
     width: 100%;
-    height: inherit;
+    height: 100%;
 }
 
 nav ul a {
@@ -449,11 +452,11 @@ color: rgb(50, 50,50);
 }*/
 .musaicTitle{
     color: white;
-    top: 640%;
+    top: 540%;
 }
 .musaicBtn{
     color: white;
-    top:655%;
+    top:555%;
 }
 .musaicBtn:hover{
      -webkit-transition: .55s;
