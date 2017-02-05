@@ -76,6 +76,9 @@ nav ul a:hover {
 }
 
 /*CONTACT SECTION*/
+.cIcon{
+    padding:8%;
+}
 .contactSector{
    
     /* height: 100%; */
@@ -91,7 +94,7 @@ nav ul a:hover {
 }
 .contactSector h1{
         /*font-size: 15px;*/
-
+font-size: 50px;
 }
 .contactSector img{
     height: 10%;
@@ -105,7 +108,7 @@ cursor: pointer;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 
-    height: 15%;
+    height: 12%;
 }
 .contactSector{
     height: 100%;
@@ -118,7 +121,7 @@ cursor: pointer;
     background-color: black;
 }
 .cContainer{
-    padding-top:8%;
+    padding-top:10%;
 }
 .contactSector p{
     color: darkgray;
@@ -328,10 +331,13 @@ cursor: pointer;
     height:100%;
 }
 .aboutIntro{
+    font-size: 5em;
     text-align: center;
     padding-top: 20%;
-    padding-bottom: 20%;
-
+    /*padding-bottom: 20%;*/
+}
+.slick-slide{
+    height: auto !important;
 }
 .decervoImg{
     max-width: 100%;
@@ -586,5 +592,53 @@ display: none;
 }
 .navigation{
     display: none;
+}
+.decervoHomeSector{
+    float: none !important;
+}
+.projectSector{
+    float: none !important;
+}
+.aboutSector{
+    display: none !important;
+}
+.homeSector{
+    float:none !important;
+}
+.contactSector{
+    float:none!important;
+    height: unset !important;
+}
+.projectItem{
+    height: unset !important;
+}
+.decervoWeb{
+    position: unset !important;
+    height: unset !important;
+}
+.stockUp{
+    position: unset !important;
+    height: unset !important;
+}
+.chow{
+    position: unset !important;
+    height: unset !important;
+}
+.loop{
+    position: unset !important;
+    height: unset !important;
+}
+.info{
+    position: unset !important;
+    height: 50% !important;
+}
+.musaic{
+    position: unset !important;
+    height: unset !important;
+}
+.title{
+    margin-top: 0px !important;
+    padding-top: 30% !important;
+    font-size: 50px !important;
 }
 }

@@ -11,10 +11,13 @@
          <script  type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
          <script type="text/javascript" src="./js/jquery-3.1.1.js"></script>
          <script type="text/javascript" src="./js/script.js"></script>
+        <link rel="stylesheet" href="css/slick.slider.css">
+         <script src="js/slick.min.js"></script>
          <!-- Latest compiled and minified CSS -->
          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
          <!-- Latest compiled and minified JavaScript -->
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+         
       </head>
       <body data-spy="scroll" data-target="#myScrollspy" data-offset="50">
          <section id="homepage"class=" navbar homepage" >
@@ -43,7 +46,19 @@
             </div>
             <div id = "about" class="col-lg-8 col-sm-12 aboutSector">
                 <div class="container">
-                    <h1 class = "aboutIntro">People. Innovation. Code.</h1>
+                     <div class="slick-hero-slider-wrapper">
+                         <div class="slider slick-hero-slider">
+                              <div class="slick-item">
+                                <h1 class = "aboutIntro">People.</h1>
+                              </div>
+                               <div class="slick-item">
+                                <h1 class = "aboutIntro">Innovation.</h1>
+                              </div>
+                               <div class="slick-item">
+                                <h1 class = "aboutIntro">Code.</h1>
+                              </div>
+                        </div>
+                    </div>
                <!--<h1 >I am Jordan Freitas, currently a Junior at the University of Washington 
                    pursuing a degree in Informatics and a minor in Entrepreneurship.</h1>-->
                    <div class="mission">
@@ -106,22 +121,22 @@
              <div id = "contact" class="col-lg-8 col-sm-12 contactSector">
                <!--<h1>CONTACT</h1>-->
                <div class="cContainer">
-               <div style = "padding: 10%;"class="col-md-6">
+               <div class="col-md-6 cIcon">
                 <a data-toggle="tooltip" title="GitHub" href = "https://github.com/JordanFreitas"><img src="../img/GitHub.svg" alt="decervoWebsite" class=""></a>
                 </div>
-                <div style = "padding: 10%;" class="col-md-6">
+                <div class="col-md-6 cIcon">
                 <a data-toggle="tooltip" title="linkedIn" href="https://www.linkedin.com/in/jordan-freitas-0b9a6710a"><img src="../img/linkedin.png" alt="decervoWebsite" class=""></a>
                 </div>
                 <div class="col-md-12 imgText">  
                     <h1>CONTACT ME!</h1>
-                    <p>jordanfreitas4@gmail.com</p>
+                    <a data-toggle="tooltip" title="jordanfreitas4@gmail.com" href="mailto:jordanfreitas4@gmail,com"><p>jordanfreitas4@gmail.com</p></a>
                     <p>(253) 709-5493</p>
                 </div>
-                <div style = "padding: 10%;"class="col-md-6">
+                <div class="col-md-6 cIcon">
                 <a data-toggle="tooltip" title="jordanfreitas4@gmail.com" href="mailto:jordanfreitas4@gmail,com"><img src="../img/mail.svg" alt="decervoWebsite" class=""></a>
                 </div>
                 <!--<h2>RESUME</h2>-->
-                 <div style = "padding: 10%;"class="col-md-6">
+                 <div class="col-md-6 cIcon">
                 <a data-toggle="tooltip" title="jordanfreitas4@gmail.com" href="../files/JordanFreitasResume2017.pdf" target="_blank"><img src="../img/pdf.svg" alt="decervoWebsite" class=""></a>
                  </div>
                  </div>
@@ -155,7 +170,7 @@
 					<a class = "moreBtn infoBtn" href="http://jordanfreitas4.wixsite.com/infovis-2015" target="_blank">MORE</a>
 				</div>
                 </a>
-				<a href="https://github.com/JordanFreitas/Musaic">
+				<a href="https://github.com/JordanFreitas/Musaic" target = "_blank">
 				<div class="projectItem">
 					<img src="../img/musaic.PNG" alt="musaic" class="musaic">
 					<h1 class = "projectTitle musaicTitle">Musaic</h1>
@@ -171,20 +186,30 @@
            
          </section>
      
-           <script src="js/smoothscroll.js"></script>
+     
 
          <script type="text/javascript">
             "use strict";
-            
-            jQuery(document).ready(function(){
-            var navOffset = jquery(".aboutNav").offset().top;
-            alert(navOffset);
-            
-            
+
+         $('.slick-hero-slider').slick({
+                dots: false,
+                 speed: 200,
+                  fade: true,
+                cssEase: 'ease-in',
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                infinite: true,
+                centerPadding: '0',
+                focusOnSelect: false,
+                // adaptiveHeight: false,
+                autoplay: true,
+                autoplaySpeed: 1000,
+              
+                pauseOnHover: false,
+                arrows: false,
             });
-            $(function () {
-            $('.ui-tooltip').tooltip();
-        })
+  
          </script>
       </body>
    </html>

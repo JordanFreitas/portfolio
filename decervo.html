@@ -16,19 +16,19 @@
          <!-- Latest compiled and minified JavaScript -->
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       </head>
-      <body>
-         <section id="homepage"class="homepage" >
-            <nav class="navigation col-md-4">
+      <body data-spy="scroll" data-target="#myScrollspy" data-offset="50">
+         <section id="homepage"class="navbar homepage" >
+            <nav class="navigation col-md-4" id ="myScrollspy">
                <div class="homeNav">
-                  <ul class = "navigation_list">
-                     <li class="navigation_item-toggle">
-                        <a href="#homepage">deCervo</a>
+                  <ul class = "navigation_list nav nav-pills nav-stacked">
+                     <li class="navigation_item">
+                        <a class = "aB" href="#homepage">deCervo</a>
                      </li>
                      <li class="navigation_item">
-                        <a href="#about">WEBSITE</a>
+                        <a class = "aB" href="#website">WEBSITE</a>
                      </li>
                      <li class="navigation_item">
-                        <a href="#projects">MOBILE APP</a>		
+                        <a class = "aB" href="#app">MOBILE APP</a>		
                      </li>
                      <li class="navigation_item" href="#">
                         OTHER
@@ -36,7 +36,7 @@
                   </ul>
                </div>
             </nav>
-            <div class="col-md-8 decervoHomeSector">
+            <div id="homepage" class="col-md-8 decervoHomeSector">
                <!--<h1 class = "title">deCervo</h1>-->
                <!--<h1 class = "titleName">Role: UI Designer, UX Designer, Mobile App Developer</h1>-->
             </div>
@@ -44,7 +44,7 @@
             <div class="col-md-8 decervoAboutSector">
                 <div class="container">
                     <div class="decervoText">
-                    <h1>Role: UI Designer, UX Designer, Mobile App Developer</h1>
+                    <h1>Role: UI/UX Designer, Mobile App Developer</h1>
                     <h1>deCervo is a New York, Colombia University based company focused on enhacing player cognitive performance.  My work and involvement with the company began in the Spring 2016.  From my extensive background in baseball, knowledge of code/engineering, and user experience I have been able to redesign and assist in iteration of their mobile application and have most recently designed, directed, and implemented deCervo's entire website overhaul.    
                     <br>
                     Due to the current size of the company, my days were spent quickly learning, constantly adapting, and tailoring my skills for the ultimate goal of the company.  Endless hours of self-teaching, debugging, and testing was core as I often was the sole designer/developer leading to many iterations of trial-and-error that comes with starting a company.
@@ -53,7 +53,7 @@
                     </div>
 
 
-                    <h1>Website Overhaul</h1>
+                    <h1 id="website">Website Overhaul</h1>
 
                     <h1>Lay the foundations regarding overall theme, ideas, and necessities of the website</h1>
                      <div class="imgTextStock">
@@ -86,7 +86,7 @@ ideas and themes for the website.</p>
                      <p class = "textOver" >Wireframing was by far the most complex part of this design process and implementation of the website.  These wireframes were
 changed, moved, added and worked upon constantly!!!  As seen below
 the mockups contained every aspect the website needed, from logos, to informational sections, to slideshow functionality.
-These were first done using illustrator(not a Mac user so no sketch...yet!), and later pushed into Axure which is a high-fidelity prototyping tool. </p>
+These were first done using Illustrator and later pushed into Axure which is a high-fidelity prototyping tool. </p>
                      <img src="../img//website/HTML.png" alt="HTML Snip" class="decervoImg">
                       </div>
                      <h1>Create HTML template and framework</h1>   
@@ -118,7 +118,7 @@ on mobile as well as large desktop screens.  Links between each of the pages are
                       <img src="../img//website/blog.png" alt="Blog" class="decervoImg">   
                        </div>
 
-                       <h1>Mobile App</h1>
+                       <h1 id="app">Mobile App</h1>
 
                      <h1>Transforming deCervo's research application to a marketable, consumer product.</h1>
 
