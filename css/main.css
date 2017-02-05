@@ -359,7 +359,7 @@ height: 100%;
 }
 .projectSector {
     height: 100%;
-    background-color: white;
+    background-color: black;
     float: right !important;
     padding: 0px !important;
 }
@@ -590,6 +590,9 @@ color: rgb(50, 50,50);
 .projectTitle, .moreBtn{
 display: none;
 }
+.stockTitle{
+    display: inline;
+}
 .navigation{
     display: none;
 }
@@ -608,6 +611,11 @@ display: none;
 .contactSector{
     float:none!important;
     height: unset !important;
+    padding-bottom: 20px !important;
+     border-bottom: 1px;
+    border-bottom-color: white;
+    border-bottom-style: inset;
+
 }
 .projectItem{
     height: unset !important;
@@ -638,7 +646,13 @@ display: none;
 }
 .title{
     margin-top: 0px !important;
-    padding-top: 30% !important;
+    padding-top: 50% !important;
     font-size: 50px !important;
+}
+.cIcon{
+    display: none !important;
+}
+.contactLabel{
+    display: none !important;
 }
 }
