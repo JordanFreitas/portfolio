@@ -16,27 +16,27 @@
          <!-- Latest compiled and minified JavaScript -->
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       </head>
-      <body>
-         <section id="homepage"class="homepage" >
-            <nav class="navigation col-md-4">
+      <body data-spy="scroll" data-target="#myScrollspy" data-offset="50">
+         <section id="homepage"class="navbar homepage" >
+            <nav class="navigation col-md-4" id ="myScrollspy">
                <div class="homeNav">
-                  <ul class = "navigation_list">
-                     <li class="navigation_item-toggle">
-                        <a href="#homepage">Stock Up</a>
+                  <ul class = "navigation_list nav nav-pills nav-stacked">
+                     <li class="navigation_item">
+                        <a class = "aB" href="#homepage">Stock Up</a>
                      </li>
                      <li class="navigation_item">
-                        <a href="#about">MISSION</a>
+                        <a class = "aB" href="#mission">MISSION</a>
                      </li>
                      <li class="navigation_item">
-                        <a href="#projects">PROCESS</a>		
+                        <a class = "aB" href="#process">PROCESS</a>		
                      </li>
                      <li class="navigation_item">
-                          <a href="#app">APP</a>	
+                          <a class = "aB" href="#prototype">PROTOTYPE</a>	
                     </li>
                   </ul>
                </div>
             </nav>
-            <div class="col-md-8 stockHomeSector">
+            <div id = "homepage" class="col-md-8 stockHomeSector">
                 <h1 class = "projectTitle stockTitlePage">STOCK UP</h1>
                <!--<h1 class = "title">deCervo</h1>-->
                <!--<h1 class = "titleName">Role: UI Designer, UX Designer, Mobile App Developer</h1>-->
@@ -46,16 +46,22 @@
                 <div class="container">
                     <!--<div>-->
                         <div class="stockIntro">
-                    <h1>Mission</h1>
-                    <h1>Connect people to available resources in upcoming disaster situations.</h1>
-                    <h1>Product: Low-Fidelity Working Prototpye</h1>  
-<!--<iframe width="70%" height="70%%" src="https://www.youtube.com/embed/UqvvIVPuv_g?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>                 </div>-->
+                            <div class="decervoText">
 
-                    <h1>Blast Surveys</h1>
+                    <h1 id= "mission">Mission</h1>
+                    <h2 class = "dSubTitle">Connect people to available resources in upcoming disaster situations.</h2>
+<iframe class = "stockVid" width="70%" height="70%%" src="https://www.youtube.com/embed/UqvvIVPuv_g?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>                
+<h1 id="process">Process</h1>
+</div>
+</div>
+   
+<div class="stockTitle">
+
+                        <h1>Blast Surveys</h1>
                    <div class="imgTextStock">
                     <img src="../img//StockUp/disaster.jpg" alt="Disaster" class="decervoImg">  
-                    <p class = "textOver">The goal of these intial surveys was to gauge information regarding our problem space facing Disasters.  Data collected became vital in narrowing
-                        our brainstormed ideas and defining our project's scope.
+                    <p class = "textOver">These intial surveys gauged information regarding our problem space facing disasters.  Data collected became vital in narrowing
+                        our brainstormed ideas and defining our project scope.
                     </p>
                  </div>
 
@@ -66,10 +72,7 @@
                      </div>
                      <h1>Prototyping</h1>
                      <div class="imgTextStock">
-                     <p class = "textOver">Started with simple paper prototypes, user-tested and iterated upon to eventual designing of the user interface and compiling user-flows.  These wireframes 
-                         done in Figma(collaboration based barebones, cloud illustrator) and eventually moved to InVision for a Low-Fidelity HotSpot prototype.  These were presented on mobile devices and features were
-                         added and improved based off user feedback. </p>
-                         <!--<iframe width="438" height="930" src="//invis.io/5C9L84EEU" frameborder="0" allowfullscreen></iframe>  -->
+                     <p class = "textOver">Paper prototypes were user-tested and iterated upon to design the user interface and compile user-flows.  These wireframes were done in Figma and eventually moved to InVision for a low-fidelity prototype. </p>
                           <img src="../img//stockUp/figma.png" alt="App Screens" class="decervoImg">  
                           </div>
                      <h1>Interviews</h1>      
@@ -107,7 +110,7 @@
                        <div class = "col-md-8" >
                            <h1>Pop-Ups and Alerts</h1>
                            <p>
-                           This acts as a notification to inform the user that their action has actually gone through, making the app feel responsive.</p></div>
+                           This acts as a notification to inform the user that their actions have gone through, making the app feel responsive.</p></div>
                        <img src="../img//StockUp/popUp.png" alt="Pop-Ups" class="col-md-4 stockImg">
                        </div>                 
                         
@@ -115,12 +118,13 @@
                        <div class = "col-md-8" >
                            <h1>Shopping Cart</h1>
                            <p>
-                           The shopping list should act as a replacement for any other list app the user might be using, dipping into our goal of efficiency for the user.</p></div>
+                           The shopping list should act as a replacement for any other "list app the user might be using, dipping into our goal of efficiency for the user.</p></div>
                        <img src="../img//StockUp/shop.png" alt="Shopping Home Screen" class="col-md-4 stockImg">
                        </div>
-                       <h1>Explore the Prototype:</h1>
-                                               <iframe width="438" height="930" src="//invis.io/5C9L84EEU" frameborder="0" allowfullscreen></iframe>  
+                       <h1 >Explore the Prototype:</h1>
+                                               <iframe id="prototype" width="438" height="930" src="//invis.io/5C9L84EEU" frameborder="0" allowfullscreen></iframe>  
 
+ </div>
  </div>
   </div>
          <!--<script src="./assets/js/vendor.min.js?v=1.8"></script>

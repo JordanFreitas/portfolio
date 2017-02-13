@@ -16,37 +16,39 @@
          <!-- Latest compiled and minified JavaScript -->
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       </head>
-      <body>
+      <body  data-spy="scroll" data-target="#myScrollspy" data-offset="50">
          <section id="homepage"class="homepage" >
-            <nav class="navigation col-md-4">
+             <nav class="navigation col-md-4"  id ="myScrollspy">
                <div class="homeNav">
-                  <ul class = "navigation_list">
-                     <li class="navigation_item-toggle">
-                        <a href="#homepage">Loop OS</a>
+                  <ul class = "navigation_list nav nav-pills nav-stacked">
+                     <li class="navigation_item">
+                        <a class = "aB" href="#homepage">LOOP OS</a>
                      </li>
                      <li class="navigation_item">
-                        <a href="#about">MISSION</a>
+                        <a class = "aB" href="#mission">MISSION</a>
                      </li>
                      <li class="navigation_item">
-                        <a href="#projects">SPRINTS</a>		
+                        <a class = "aB" href="#process">SPRINTS</a>		
                      </li>
-                     <li class="navigation_item" href="#">
-                        DECK
-                     </li>
+                     <li class="navigation_item">
+                          <a class = "aB" href="#deck">SIZZLE DECK</a>	
+                    </li>
                   </ul>
                </div>
             </nav>
-            <div class="col-md-8 loopOSHomeSector">
+
+            <div id= "homepage"class="col-md-8 loopOSHomeSector">
                <!--<h1 class = "title">deCervo</h1>-->
                <!--<h1 class = "titleName">Role: UI Designer, UX Designer, Mobile App Developer</h1>-->
             </div>
 
             <div class="col-md-8 loopAboutSector">
                 <div class="container">
-                    <div class="loopText">
-                         <h1 class = "loopIntro" >3Months. 3People. 1Goal.</h1>
-                         <h1  >Design a Mobile Operating System</h1>
-                         </div>
+                               <div class="decervoText">
+                   <h2 id="mission">3Months. 3People. 1Goal.</h1>
+                  <h1 class = "loopIntro">Design a Mobile Operating System</h2>
+</div>
+                   
                     <h1 class="loopTitle">SPRINT 1</h1>
                     <h1>Themes. Values. Surveys. Interviews.</h1>
                     

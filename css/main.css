@@ -160,6 +160,10 @@ cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;  
 }
+.stockVid{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 .loopOSHomeSector{
         height:100%;
      float: right !important;
@@ -194,6 +198,7 @@ cursor: pointer;
     color: white;
     float: right !important;
     text-align: center;
+    /*width: inherit !important;*/
 }
 .chowAboutSector{
         /* height: 100%; */
@@ -202,6 +207,7 @@ cursor: pointer;
     /* background-color: black; */
     float: right !important;
     text-align: center;
+    
 }
 @media(max-width:700px){
     .navigation{
@@ -241,8 +247,7 @@ cursor: pointer;
     text-align: center;
 }
 .loopIntro{
-    padding-top:10%;
-    padding-bottom: 20%;
+    padding-bottom: 30%;
 }
 .blank{
     padding: 30px;
@@ -266,7 +271,9 @@ cursor: pointer;
    
 }
 .imgTextStock{
-    position: relative;
+        position: relative;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
 .chow{
     color: rgb(0, 0, 0);
@@ -289,6 +296,12 @@ cursor: pointer;
      background-color:rgba(0,81,124, .95);
    
 }
+.websiteLink{
+    text-decoration: none !important;
+}
+.dSubTitle{
+    font-weight: bold;
+}
 /*.decervoHomeSector:hover{
     transform: scale(1.1536);
       -webkit-transition: .55s;
@@ -303,18 +316,31 @@ cursor: pointer;
     float: right !important;
     text-align: center;
 }
-
-.decervoText{
-    text-align: left;
+.stockTitle h1{
+    font-weight: bold !important;
 }
-
+.decervoText{
+    /*text-align: left;*/
+    padding-top: 10%;
+   padding-bottom: 40px;
+}
+.decervoText h1{
+    font-size: 60px !important;
+    /*padding-bottom: 40px;*/
+    font-weight: bold;
+}
+.dPic{
+    padding: 50px;
+}
+.imgTextStock h2{
+font-weight: bold;
+}
 
 /*about section*/
 
 .interestIcon{
     width: 50%;
     height: auto;
-
 }
 .aboutSector{
     /*height: 100%;*/
@@ -368,6 +394,9 @@ height: 100%;
     width: 100%;
         background: black;
         overflow: hidden ;
+}
+.projectItem:hover{
+    filter: brightness(120%);
 }
 /*.projectItem:hover{
     transform: scaleY(1.03);
@@ -488,7 +517,7 @@ color: rgb(50, 50,50);
     font-size: 80px;
     color: lightgray;
     text-align: center;
-    margin-top: 50%;
+    margin-top: 35%;
     /*height: 100%;*/
 }
 .titleName{
@@ -654,5 +683,29 @@ display: none;
 }
 .contactLabel{
     display: none !important;
+}
+.stockHomeSector{
+    float: none !important;
+}
+.loopHomeSector{
+    float: none !important;
+}
+.chowHomeSector{
+    float: none !important;
+}
+.stockVid{
+    display: none;
+}
+.container{
+    width: inherit !important;
+}
+.chow{
+    display: none !important;
+}
+.chowAboutSector{
+    width: inherit !important;
+}
+.loopAboutSector{
+    width: inherit !important;
 }
 }
